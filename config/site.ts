@@ -1,18 +1,43 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "Leandro Francisco",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "My portfolio.",
   mainNav: [
     {
-      title: "Home",
+      title: "home",
       href: "/",
+    },
+    {
+      title: "about",
+      href: "/about",
+    },
+    {
+      title: "ui/ux design",
+      href: "/design",
+    },
+    {
+      title: "drawings",
+      href: "/drawings",
+    },
+    {
+      title: "videos",
+      href: "/videos",
+    },
+    {
+      title: "posts",
+      href: "/posts",
+    },
+    {
+      title: "critics",
+      href: "/critics",
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    instagram: "https://instagram.com/leartizt",
+    tiktok: "https://tiktok.com/@leartizt",
+    linkedin: "https://www.linkedin.com/in/leandro-francisco20/",
+    cv: "https://drive.google.com/file/d/1pFYiJE4C_-yCyypdE8epdTi6XuA1FtPk/view?usp=drive_link"
   },
 }

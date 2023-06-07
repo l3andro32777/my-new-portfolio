@@ -78,4 +78,20 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  /* h1 {
+    font-family: 'Times New Roman', Times, serif;
+  } */
+
+  /* p {
+    font-family: system-ui, -apple-system,  'Helvetica Neue', sans-serif;
+  } */
+
+  .times {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* .other {
+    font-family: system-ui, -apple-system,  'Helvetica Neue', sans-serif;
+  } */
 }
