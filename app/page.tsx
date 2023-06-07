@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold leading-tight tracking-tighter md:text-5xl times">
           Hello! <br className="hidden sm:inline" />
-          <em className="font-normal">I'm</em> Leandro of House Francisco.
+          <em className="font-normal">I&apos;m</em> Leandro of House Francisco.
         </h1>
         <Image
           alt={name}
