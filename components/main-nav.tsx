@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import * as React from "react"
 import Link from "next/link"
@@ -6,8 +6,8 @@ import Link from "next/link"
 import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import { buttonVariants } from "@/components/ui/button"
+import { Icons } from "@/components/icons"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -42,7 +42,7 @@ export function MainNav({ items }: MainNavProps) {
   }, [])
 
   return (
-    <div className="flex gap-6 md:gap-10">
+    <div className="flex md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
         <Icons.myLogo /* className="h-5 w-5 fill-current" */ />
       </Link>
@@ -60,12 +60,82 @@ export function MainNav({ items }: MainNavProps) {
             onClick={toggleMenu}
             aria-label="Abrir menu"
           >
-            <Icons.menuIcon/>
+            <Icons.menuIcon />
           </button>
         </div>
       </div>
 
       <nav className="hidden md:flex gap-6 font-bold times">
+        <div className="flex gap-6">
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
+              href="#"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              home
+            </Link>
+          </div>
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
+              href="#portfolio"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              portfolio
+            </Link>
+          </div>
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
+              href="#arts"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              arts
+            </Link>
+          </div>
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
+              href="#about"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              about
+            </Link>
+          </div>
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
+              href="/critics"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              critics
+            </Link>
+          </div>
+        </div>
+      </nav>
+
+      {/* <nav className="hidden md:flex gap-6 font-bold times">
         {items?.map(
           (item, index) =>
             item.href && (
@@ -89,7 +159,7 @@ export function MainNav({ items }: MainNavProps) {
               </div>
             )
         )}
-      </nav>
+      </nav> */}
 
       {/* Menu lateral */}
       <div className="relative">
@@ -97,7 +167,7 @@ export function MainNav({ items }: MainNavProps) {
         {isMenuOpen && (
           <div
             className="fixed inset-0 z-20 backdrop-filter backdrop-blur"
-            style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
             onClick={closeMenu}
           />
         )}
@@ -115,15 +185,91 @@ export function MainNav({ items }: MainNavProps) {
                 variant: "ghost",
               })}
             >
-              <button
-                onClick={closeMenu}
-                aria-label="Fechar menu"
-              >
-                <Icons.closeIcon/>
+              <button onClick={closeMenu} aria-label="Fechar menu">
+                <Icons.closeIcon />
               </button>
             </div>
           </div>
           <nav className="flex flex-col gap-6 font-bold times pl-6 pt-6">
+            <div className="flex flex-col gap-6 items-start">
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Link
+                  href="#"
+                  className={cn(
+                    "flex items-center text-muted-foreground text-lg"
+                  )}
+                >
+                  home
+                </Link>
+              </div>
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Link
+                  href="#portfolio"
+                  className={cn(
+                    "flex items-center text-muted-foreground text-lg"
+                  )}
+                >
+                  portfolio
+                </Link>
+              </div>
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Link
+                  href="#arts"
+                  className={cn(
+                    "flex items-center text-muted-foreground text-lg"
+                  )}
+                >
+                  arts
+                </Link>
+              </div>
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Link
+                  href="#about"
+                  className={cn(
+                    "flex items-center text-muted-foreground text-lg"
+                  )}
+                >
+                  about
+                </Link>
+              </div>
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Link
+                  href="/critics"
+                  className={cn(
+                    "flex items-center text-muted-foreground text-lg"
+                  )}
+                >
+                  critics
+                </Link>
+              </div>
+            </div>
+          </nav>
+          {/* <nav className="flex flex-col gap-6 font-bold times pl-6 pt-6">
             {items?.map(
               (item, index) =>
                 item.href && (
@@ -147,7 +293,7 @@ export function MainNav({ items }: MainNavProps) {
                   </div>
                 )
             )}
-          </nav>
+          </nav> */}
         </div>
       </div>
     </div>

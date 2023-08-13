@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Mail } from "lucide-react"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
@@ -8,7 +9,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background">
+    <header className="top-0 z-40 w-full bg-background">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
@@ -24,7 +25,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.instagram/>
+                <Icons.instagram />
                 <span className="sr-only">Instagram</span>
               </div>
             </Link>
@@ -39,7 +40,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.tiktok/>
+                <Icons.tiktok />
                 <span className="sr-only">TikTok</span>
               </div>
             </Link>
@@ -54,8 +55,23 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.linkedin/>
+                <Icons.linkedin />
                 <span className="sr-only">LinkedIn</span>
+              </div>
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:leartizt.contacto@gmail.com"
+            >
+              <div
+                className={buttonVariants({
+                  size: "sm",
+                  variant: "ghost",
+                })}
+              >
+                <Mail />
+                <span className="sr-only">E-mail</span>
               </div>
             </Link>
             <ThemeToggle />
