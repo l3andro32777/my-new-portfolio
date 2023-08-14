@@ -25,29 +25,29 @@ export default function About() {
           leartizt, online!
         </p>
         <p>
-          I'm a finalist of the Bachelor Degree in Informatic Engineering, at
+          I&apos;m a finalist of the Bachelor Degree in Informatic Engineering, at
           IPS of which I became a Face, in 2022. During my cource, I discovered
           the area of UI/UX Design, which made me very happy, due to my enormous
           taste for Art. So, I can do my Art outside of my solid carreer and
           also apply my artistic skills on it!
         </p>
         <p>
-          I'm also the eternal UI Jedi of the Order Build Up Labs, where I did
+          I&apos;m also the eternal UI Jedi of the Order Build Up Labs, where I did
           my intership.
         </p>
         <hr />
         <p>
-          I'm passionate about many creative pursuits, including drawing, music,
+          I&apos;m passionate about many creative pursuits, including drawing, music,
           photography, videography, acting and so many others!
         </p>
         <p>
-          I think I'm able to say that I draw, since I was born and, one day, I
+          I think I&apos;m able to say that I draw, since I was born and, one day, I
           got inspiration and started do share my artwork, on TikTok, as
           leartizt, my artistic name.
         </p>
         <p>
           Due to my taste for cinema and streaming, I started to write critics
-          on Instagram and I'll be sharing it here, too!
+          on Instagram and I&apos;ll be sharing it here, too!
         </p>
         <p>I also like to edit photos and create posts for social media.</p>
         <p>
@@ -55,7 +55,7 @@ export default function About() {
           taking pictures, I love to create cool outfits and, of course, posing
           for the cameras!
         </p>
-        <p>And, of course, I can't skip hitting the gym!</p>
+        <p>And, of course, I can&apos;t skip hitting the gym!</p>
       </div>
     </div>
   )
