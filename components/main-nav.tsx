@@ -87,6 +87,19 @@ export function MainNav({ items }: MainNavProps) {
             })}
           >
             <Link
+              href="#about"
+              className={cn("flex items-center text-muted-foreground text-lg")}
+            >
+              about
+            </Link>
+          </div>
+          <div
+            className={buttonVariants({
+              size: "sm",
+              variant: "ghost",
+            })}
+          >
+            <Link
               href="#portfolio"
               className={cn("flex items-center text-muted-foreground text-lg")}
             >
@@ -104,32 +117,6 @@ export function MainNav({ items }: MainNavProps) {
               className={cn("flex items-center text-muted-foreground text-lg")}
             >
               arts
-            </Link>
-          </div>
-          <div
-            className={buttonVariants({
-              size: "sm",
-              variant: "ghost",
-            })}
-          >
-            <Link
-              href="#about"
-              className={cn("flex items-center text-muted-foreground text-lg")}
-            >
-              about
-            </Link>
-          </div>
-          <div
-            className={buttonVariants({
-              size: "sm",
-              variant: "ghost",
-            })}
-          >
-            <Link
-              href="/critics"
-              className={cn("flex items-center text-muted-foreground text-lg")}
-            >
-              critics
             </Link>
           </div>
         </div>

@@ -108,24 +108,24 @@ export default function Home() {
         </div>
       </section>
       <section
-        id="portfolio"
-        className="grid items-center pt-4 pb-12 bg-secondary text-secondary-foreground"
-      >
-        <div className="container">
-          <Portfolio />
-        </div>
-      </section>
-      <section id="arts" className="grid items-center pt-4 pb-12">
-        <div className="container">
-          <Arts />
-        </div>
-      </section>
-      <section
         id="about"
         className="grid items-center pt-4 pb-12 bg-secondary text-secondary-foreground"
       >
         <div className="container">
           <About />
+        </div>
+      </section>
+      <section id="portfolio" className="grid items-center pt-4 pb-12">
+        <div className="container">
+          <Portfolio />
+        </div>
+      </section>
+      <section
+        id="arts"
+        className="grid items-center pt-4 pb-12 bg-secondary text-secondary-foreground"
+      >
+        <div className="container">
+          <Arts />
         </div>
       </section>
     </>

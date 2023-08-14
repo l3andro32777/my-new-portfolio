@@ -72,10 +72,8 @@ export default function Portfolio() {
             />
             <div className="flex items-center pt-2 gap-x-4 text-sm">
               <span className="font-bold">{project.date}</span>
-              <Badge variant={"reverse"} className="">
-                {project.category}
-              </Badge>
-              <Badge variant={"outline"} className="">
+              <Badge className="">{project.category}</Badge>
+              <Badge variant={"outlineReverse"} className="">
                 {project.company}
               </Badge>
             </div>
@@ -90,9 +88,7 @@ export default function Portfolio() {
                   <ExternalLink />
                 </Link>
               </h2>
-              <p className="text-xs pt-2 text-muted-foreground sm:text-base">
-                {project.description}
-              </p>
+              <p className="text-xs pt-2 sm:text-base">{project.description}</p>
             </div>
           </article>
         ))}

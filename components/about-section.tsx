@@ -19,30 +19,29 @@ export default function About() {
           About Me
         </h1>
       </div>
-      <div className="grid gap-6">
+      <div className="grid gap-6 indented text-sm md:text-base">
         <p>
           My name is Leandro and I belong to House Francisco. Many know me as
           leartizt, online!
         </p>
         <p>
-          I&apos;m a finalist of the Bachelor Degree in Informatic Engineering, at
-          IPS of which I became a Face, in 2022. During my cource, I discovered
-          the area of UI/UX Design, which made me very happy, due to my enormous
-          taste for Art. So, I can do my Art outside of my solid carreer and
-          also apply my artistic skills on it!
+          I&apos;m a finalist of the Bachelor Degree in Informatic Engineering,
+          at IPS of which I became a Face, in 2022. During my cource, I
+          discovered the area of UI/UX Design, which made me very happy, due to
+          my enormous taste for Art. So, I can do my Art outside of my solid
+          carreer and also apply my artistic skills on it!
+        </p>
+        <p className="border-b border-muted-foreground pb-6">
+          I&apos;m also the eternal UI Jedi of the Order Build Up Labs, where I
+          did my intership.
         </p>
         <p>
-          I&apos;m also the eternal UI Jedi of the Order Build Up Labs, where I did
-          my intership.
-        </p>
-        <hr />
-        <p>
-          I&apos;m passionate about many creative pursuits, including drawing, music,
-          photography, videography, acting and so many others!
+          I&apos;m passionate about many creative pursuits, including drawing,
+          music, photography, videography, acting and so many others!
         </p>
         <p>
-          I think I&apos;m able to say that I draw, since I was born and, one day, I
-          got inspiration and started do share my artwork, on TikTok, as
+          I think I&apos;m able to say that I draw, since I was born and, one
+          day, I got inspiration and started do share my artwork, on TikTok, as
           leartizt, my artistic name.
         </p>
         <p>
