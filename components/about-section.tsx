@@ -23,7 +23,7 @@ export default function About() {
           About Me
         </h1>
       </div>
-      <div className="grid gap-6 indented text-sm md:text-base">
+      <div className="grid gap-6 text-sm md:text-base">
         <p>
           My name is Leandro and I belong to House Francisco. Many know me as
           leartizt, online!
@@ -61,7 +61,7 @@ export default function About() {
         <p>
           I think I&apos;m able to say that I draw, since I was born and, one
           day, I got inspiration and started do share my artwork, on TikTok, as
-          leartizt, my artistic name.
+          @leartizt, my artistic name.
         </p>
         <p>
           Due to my taste for cinema and streaming, I started to write critics
