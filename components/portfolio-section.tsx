@@ -14,9 +14,9 @@ const projects = [
   {
     id: 1,
     title: "GrantsFinder",
-    href: "#",
+    href: "/portfolio/grantsFinder",
     description:
-      "An AI chatbot that will help you find the best grants available for your project.",
+      "An AI chatbot that will help you find the best European grants available for projects or ideas.",
     date: "2023",
     category: "Internship",
     company: "Build Up Labs",
@@ -25,9 +25,9 @@ const projects = [
   {
     id: 2,
     title: "Streaming Planet",
-    href: "#",
+    href: "/portfolio/streamingPlanet",
     description:
-      "A platform for the rental of cinema rooms, belonging to a fictitious company that provides Streaming services.",
+      "Rental of cinema rooms, belonging to a fictitious company that provides Streaming services.",
     date: "2022",
     category: "Bachelor",
     company: "IPS",
@@ -78,7 +78,7 @@ export default function Portfolio() {
               </Badge>
             </div>
             <div className="group relative">
-              <h2 className="text-xl font-bold leading-tight tracking-tighter pt-4 md:text-3xl times">
+              <h3 className="text-xl font-bold leading-tight tracking-tighter pt-4 md:text-3xl times">
                 <Link
                   href={project.href}
                   className="flex items-center gap-2 hover:underline"
@@ -87,7 +87,7 @@ export default function Portfolio() {
                   {project.title}
                   <ExternalLink />
                 </Link>
-              </h2>
+              </h3>
               <p className="text-xs pt-2 sm:text-base">{project.description}</p>
             </div>
           </article>

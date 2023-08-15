@@ -4,7 +4,11 @@ import { ExternalLink } from "lucide-react"
 
 import {
   bicepsEmoji,
+  cameraEmoji,
+  clapperEmoji,
+  fireEmoji,
   grantsFinderPreview,
+  loveEmoji,
   playerPreview,
   streamingPlanetPreview,
 } from "@/lib/info"
@@ -26,10 +30,20 @@ export default function About() {
         </p>
         <p>
           I&apos;m a finalist of the Bachelor Degree in Informatic Engineering,
-          at IPS of which I became a Face, in 2022. During my cource, I
-          discovered the area of UI/UX Design, which made me very happy, due to
-          my enormous taste for Art. So, I can do my Art outside of my solid
-          carreer and also apply my artistic skills on it!
+          at IPS of which I became a Face, in 2022!
+          <Image
+            src={cameraEmoji}
+            alt="Emoji"
+            className="inline mb-1 mx-0.5 w-4 h-4"
+          />{" "}
+          During my cource, I discovered the area of UI/UX Design, which made me
+          very happy, due to my enormous taste for Art. So, I can do my Art
+          outside of my solid carreer and also apply my artistic skills on it!
+          <Image
+            src={fireEmoji}
+            alt="Emoji"
+            className="inline mb-1 mx-0.5 w-4 h-4"
+          />
         </p>
         <p className="border-b border-muted-foreground pb-6">
           I&apos;m also the eternal UI Jedi of the Order Build Up Labs, where I
@@ -38,6 +52,11 @@ export default function About() {
         <p>
           I&apos;m passionate about many creative pursuits, including drawing,
           music, photography, videography, acting and so many others!
+          <Image
+            src={loveEmoji}
+            alt="Emoji"
+            className="inline mb-1 mx-0.5 w-4 h-4"
+          />
         </p>
         <p>
           I think I&apos;m able to say that I draw, since I was born and, one
@@ -47,6 +66,11 @@ export default function About() {
         <p>
           Due to my taste for cinema and streaming, I started to write critics
           on Instagram and I&apos;ll be sharing it here, too!
+          <Image
+            src={clapperEmoji}
+            alt="Emoji"
+            className="inline mb-1 mx-0.5 w-4 h-4"
+          />
         </p>
         <p>I also like to edit photos and create posts for social media.</p>
         <p>
@@ -54,7 +78,14 @@ export default function About() {
           taking pictures, I love to create cool outfits and, of course, posing
           for the cameras!
         </p>
-        <p>And, of course, I can&apos;t skip hitting the gym!</p>
+        <p>
+          And, of course, I can&apos;t skip hitting the gym!
+          <Image
+            src={bicepsEmoji}
+            alt="Emoji"
+            className="inline mb-1 mx-0.5 w-4 h-4"
+          />
+        </p>
       </div>
     </div>
   )

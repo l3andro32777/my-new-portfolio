@@ -43,7 +43,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
               <div className="flex-1">{children}</div>
-              <footer className="text-xs font-semibold text-center py-8">
+              <footer className="bg-secondary text-secondary-foreground text-xs font-semibold text-center py-8">
                 Copyright &copy; {new Date().getFullYear()} Leandro Francisco
               </footer>
             </div>
