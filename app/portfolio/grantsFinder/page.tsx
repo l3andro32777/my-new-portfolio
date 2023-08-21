@@ -1,6 +1,5 @@
 "use client"
 
-import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { Code, MonitorSmartphone, User } from "lucide-react"
@@ -35,12 +34,6 @@ import {
   grantsFinderShape,
 } from "@/lib/info"
 import { Badge } from "@/components/ui/badge"
-
-export const metadata: Metadata = {
-  title: "GrantsFinder",
-  description:
-    "An AI chatbot that will help you find the best European grants available for projects or ideas.",
-}
 
 const project = {
   title: "GrantsFinder",
