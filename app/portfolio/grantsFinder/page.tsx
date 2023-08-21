@@ -447,8 +447,8 @@ export default function GrantsFinder() {
           </div>
         </div>
       </div>
-      <hr />
-      <div className="pt-4 pb-8">
+      {/* <hr /> */}
+      {/* <div className="pt-4 pb-8">
         <h2 className="text-2xl font-bold leading-tight tracking-tighter py-2 md:text-4xl times">
           High-Fidelity prototypes
         </h2>
@@ -522,7 +522,7 @@ export default function GrantsFinder() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
