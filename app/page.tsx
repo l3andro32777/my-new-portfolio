@@ -12,6 +12,7 @@ import { buttonVariants } from "@/components/ui/button"
 import About from "@/components/about-section"
 import Arts from "@/components/art-section"
 import Portfolio from "@/components/portfolio-section"
+import Testimonials from "@/components/testimonials-section"
 
 export default function Home() {
   const [typedText, setTypedText] = useState("")
@@ -86,7 +87,7 @@ export default function Home() {
             </div>
           </div>
           <div className="polaroid">
-            <Image alt={name} className="w-[28rem] pb-12" src={avatar} />
+            <Image alt={name} className="w-[28rem] pt-2 pb-10" src={avatar} />
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-4 pt-8 pb-4 sm:pt-2">
@@ -126,6 +127,11 @@ export default function Home() {
       >
         <div className="container">
           <Arts />
+        </div>
+      </section>
+      <section id="testimonials" className="grid items-center pt-4 pb-12">
+        <div className="container">
+          <Testimonials />
         </div>
       </section>
     </>

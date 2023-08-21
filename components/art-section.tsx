@@ -4,10 +4,14 @@ import Link from "next/link"
 import { ExternalLink } from "lucide-react"
 
 import { gokuKurama, kakashiTanjiro, tsuyuT } from "@/lib/drawings"
-import { ateDeGatasPostFirst, ateDeGatasPostSecond } from "@/lib/posts"
+import {
+  ateDeGatasPostFirst,
+  ateDeGatasPostSecond,
+  startupSpotlight,
+} from "@/lib/posts"
 
 const drawings = [gokuKurama, kakashiTanjiro, tsuyuT]
-const posts = [ateDeGatasPostFirst, ateDeGatasPostSecond]
+const posts = [ateDeGatasPostSecond, ateDeGatasPostFirst, startupSpotlight]
 
 export default function Arts() {
   const [currentDrawingIndex, setCurrentDrawingIndex] = useState(0)
@@ -20,15 +24,15 @@ export default function Arts() {
     return () => clearInterval(interval)
   }, [])
 
-  // const [currentPostIndex, setCurrentPostIndex] = useState(0)
+  const [currentPostIndex, setCurrentPostIndex] = useState(0)
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentPostIndex((prevIndex) => (prevIndex + 1) % drawings.length)
-  //   }, 2000)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentPostIndex((prevIndex) => (prevIndex + 1) % drawings.length)
+    }, 2000)
 
-  //   return () => clearInterval(interval)
-  // }, [])
+    return () => clearInterval(interval)
+  }, [])
 
   return (
     <div>
@@ -69,7 +73,7 @@ export default function Arts() {
           <Image
             alt={"Current Post"}
             className="w-full rounded-md"
-            src={ateDeGatasPostSecond}
+            src={posts[currentPostIndex]}
           />
           <div className="group relative">
             <h2 className="text-xl font-bold leading-tight tracking-tighter pt-4 md:text-4xl times">
