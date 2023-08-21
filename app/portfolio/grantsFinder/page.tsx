@@ -120,10 +120,11 @@ export default function GrantsFinder() {
           </div>
           <p className="pt-4">
             The logo is a fusion of the letter{" "}
-            <span className="font-semibold">"G"</span> from "Grants" and a{" "}
+            <span className="font-semibold">&quot;G&quot;</span> from
+            &quot;Grants&quot; and a{" "}
             <span className="font-semibold">magnifying glass</span>, symbolizing
-            "Finder," embodying the project&apos;s essence of discovery and
-            opportunity.
+            &quot;Finder&quot;, embodying the project&apos;s essence of
+            discovery and opportunity.
           </p>
         </div>
         <div className="pb-4">
