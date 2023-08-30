@@ -125,7 +125,7 @@ export default function GrantsFinder() {
           <p className="pt-4">
             The logo blends the icon of a{" "}
             <span className="font-semibold">popcorn bucket</span> with the shape
-            of <span className="font-semibold">Saturn's rings</span>. This
+            of <span className="font-semibold">Saturn&apos;s rings</span>. This
             fusion represents{" "}
             <span className="font-semibold">
               the duality between entertainment and the fascination with the
@@ -184,8 +184,8 @@ export default function GrantsFinder() {
           <div className="grid gap-y-2">
             <p>
               The {project.title} project originated from a group collaboration,
-              during my Bachelor&apos;s degree, in the Applied Software Engineering
-              course.
+              during my Bachelor&apos;s degree, in the Applied Software
+              Engineering course.
             </p>
             <p>
               Our challenge was to create a platform for something
@@ -198,17 +198,17 @@ export default function GrantsFinder() {
               platform that offers cinema room rentals and streaming services
               combined. With {project.title}, users can rent private cinema
               rooms to watch their favorite shows and films with friends or
-              immerse themselves in a cinematic experience for series like &quot;Game
-              of Thrones&quot;.
+              immerse themselves in a cinematic experience for series like
+              &quot;Game of Thrones&quot;.
             </p>
             <p>
               Our platform caters to those who want more than just a regular
-              streaming subscription. It&apos;s for individuals seeking a grand film
-              night, groups craving an immersive TV series marathon, or anyone
-              looking to enjoy a cinematic experience in the comfort of their
-              own rented cinema room. Please, note that while the cinema rooms
-              are described as physical spaces, they are purely fictional and
-              part of the imaginative concept.
+              streaming subscription. It&apos;s for individuals seeking a grand
+              film night, groups craving an immersive TV series marathon, or
+              anyone looking to enjoy a cinematic experience in the comfort of
+              their own rented cinema room. Please, note that while the cinema
+              rooms are described as physical spaces, they are purely fictional
+              and part of the imaginative concept.
             </p>
           </div>
         </div>
