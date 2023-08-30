@@ -184,7 +184,7 @@ export default function GrantsFinder() {
           <div className="grid gap-y-2">
             <p>
               The {project.title} project originated from a group collaboration,
-              during my Bachelor's degree, in the Applied Software Engineering
+              during my Bachelor&apos;s degree, in the Applied Software Engineering
               course.
             </p>
             <p>
@@ -193,17 +193,17 @@ export default function GrantsFinder() {
               we envisioned a unique service &#45; {project.title}.
             </p>
             <p>
-              {project.title} is not your typical streaming service. It's a
+              {project.title} is not your typical streaming service. It&apos;s a
               cinematic experience brought to your fingertips. Imagine a
               platform that offers cinema room rentals and streaming services
               combined. With {project.title}, users can rent private cinema
               rooms to watch their favorite shows and films with friends or
-              immerse themselves in a cinematic experience for series like "Game
-              of Thrones."
+              immerse themselves in a cinematic experience for series like &quot;Game
+              of Thrones&quot;.
             </p>
             <p>
               Our platform caters to those who want more than just a regular
-              streaming subscription. It's for individuals seeking a grand film
+              streaming subscription. It&apos;s for individuals seeking a grand film
               night, groups craving an immersive TV series marathon, or anyone
               looking to enjoy a cinematic experience in the comfort of their
               own rented cinema room. Please, note that while the cinema rooms
@@ -238,7 +238,7 @@ export default function GrantsFinder() {
           <div className="md:w-[24rem]">
             <h4 className="text-lg font-semibold">Concept #1: HBO Max</h4>
             <p className="text-muted-foreground pb-2">
-              HBO Max's visual allure.
+              HBO Max&apos;s visual allure.
             </p>
             <Image
               src={streamingPlanetHBOMax}
