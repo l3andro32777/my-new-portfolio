@@ -46,7 +46,7 @@ export default function About() {
           />
         </p>
         <p className="border-b border-muted-foreground pb-6">
-          I&apos;m also the eternal UI Jedi of the Order Build Up Labs, where I
+          I&apos;m also the eternal UI Jedi of the Build Up Labs Order, where I
           did my intership.
         </p>
         <p>

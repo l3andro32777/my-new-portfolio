@@ -28,20 +28,15 @@ export default function Testimonials() {
           .map((testimonial, index) => (
             <Card
               key={index}
-              className="flex flex-col justify-between md:card-item"
+              className="flex flex-col justify-between mb-4 md:card-item"
             >
               <CardHeader className="flex flex-row items-center gap-2">
                 <Avatar>
-                  <AvatarImage
-                    src="https://github.com/shadcn.png"
-                    alt="@shadcn"
-                  />
+                  <AvatarImage src={testimonial.image} alt={testimonial.name} />
                   <AvatarFallback>NA</AvatarFallback>
                 </Avatar>
                 <div>
-                  <CardTitle className="text-base">
-                    {testimonial.name}
-                  </CardTitle>
+                  <CardTitle>{testimonial.name}</CardTitle>
                   <CardDescription>{testimonial.role}</CardDescription>
                 </div>
               </CardHeader>

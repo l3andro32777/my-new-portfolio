@@ -4,7 +4,6 @@ import concept3 from "../images/BUL Funds - UI_UX Research_3.jpg"
 import shape from "../images/GrantsFinder_ Low-Fidelity Prototypes.jpg"
 import me2 from "../images/avatar2.png"
 import me from "../images/avatar.jpg"
-import grantsFinder from "../images/bulFunds.png"
 import camera from "../images/camera-with-flash_1f4f8.png"
 import clapper from "../images/clapper-board_1f3ac.png"
 import fire from "../images/fire_1f525.png"
@@ -13,6 +12,16 @@ import gfColors from "../images/grantsFinderColors.png"
 import gFFirst from "../images/grantsFinderFirstVersion.png"
 import gfLogo from "../images/grantsFinderLogo.png"
 import player from "../images/player.png"
+import gFFinal from "../images/portfolio/AI Chat page - Cards improvement (cards with sections and improvements).png"
+import gFFast2 from "../images/portfolio/AI Chat page - Fast answers given.png"
+import gFHighlight from "../images/portfolio/AI Chat page - Highlight calls cards relevance or importance (Best call with badge).png"
+import gFVideo from "../images/portfolio/AI Chat page - Highlight questions card (video).png"
+import gFNoGuide from "../images/portfolio/AI Chat page - Highlight questions card.png"
+import gFMore from "../images/portfolio/AI Chat page - Possibility to expand the number of calls presented (Button).png"
+import gFProgress from "../images/portfolio/AI Chat page - Questions' progress (simple).png"
+import gFFast from "../images/portfolio/AI Chat page - Relevant calls and fast answers (longer without buttons).png"
+import gFMultiple from "../images/portfolio/AI Chat page - Relevant calls and multiple answers 1.png"
+import gFSearch from "../images/portfolio/AI Chat page - Searching calls.png"
 import shape2 from "../images/portfolio/BUL Funds - UI_UX Research_Bird.jpg"
 import shape21 from "../images/portfolio/BUL Funds - UI_UX Research_Bird_2.jpg"
 import shape22 from "../images/portfolio/BUL Funds - UI_UX Research_Bird_3.jpg"
@@ -26,9 +35,14 @@ import gFLow5 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_5.
 import gFLow6 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_6.jpg"
 import gFLowM1 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M1.jpg"
 import gFLowM2 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M2.jpg"
+import sPRent from "../images/portfolio/Streaming Planet - Novo aluguer – 1.png"
 import gFAfter1 from "../images/portfolio/after_1.png"
 import gFAfter2 from "../images/portfolio/after_2.png"
+import sPNOS from "../images/portfolio/app-cinema-nos-bilheteira (1).jpeg"
 import gFBefore from "../images/portfolio/before.png"
+import sPHBOMax from "../images/portfolio/full-dmx-family-gradient_HOTD-FINAL (1).jpg"
+import grantsFinder from "../images/portfolio/gFPreview.png"
+import sPFinal from "../images/portfolio/streaming_planet_final.png"
 import love from "../images/red-heart_2764-fe0f.png"
 import arrowW from "../images/seta-girada-para-a-direita-com-linha-quebrada (1).png"
 import arrowB from "../images/seta-girada-para-a-direita-com-linha-quebrada.png"
@@ -79,6 +93,22 @@ export const grantsFinderLowM2 = gFLowM2
 export const grantsFinderBefore = gFBefore
 export const grantsFinderAfter1 = gFAfter1
 export const grantsFinderAfter2 = gFAfter2
+
+export const grantsFinderSearch = gFSearch
+export const grantsFinderFast = gFFast
+export const grantsFinderFast2 = gFFast2
+export const grantsFinderMultiple = gFMultiple
+export const grantsFinderProgress = gFProgress
+export const grantsFinderHighlight = gFHighlight
+export const grantsFinderNoGuide = gFNoGuide
+export const grantsFinderVideo = gFVideo
+export const grantsFinderMore = gFMore
+export const grantsFinderFinal = gFFinal
+
+export const streamingPlanetHBOMax = sPHBOMax
+export const streamingPlanetNOS = sPNOS
+export const streamingPlanetRent = sPRent
+export const streamingPlanetFinal = sPFinal
 
 export const arrowBlack = arrowB
 export const arrowWhite = arrowW

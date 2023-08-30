@@ -41,9 +41,9 @@ export default function Posts() {
             <DialogTrigger>
               <Image alt={post.alt} src={post.src} />
             </DialogTrigger>
-            <DialogContent>
-              <DialogTitle>{post.alt}</DialogTitle>
+            <DialogContent className="pt-10">
               <Image alt={post.alt} src={post.src} />
+              <DialogTitle className="text-center">{post.alt}</DialogTitle>
             </DialogContent>
           </Dialog>
         ))}

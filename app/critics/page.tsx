@@ -32,13 +32,10 @@ export default function Critics() {
 
           return (
             <div key={fileName}>
-              <Link
-                href={`/critics/${fileName.replace(".md", "")}`}
-                className="text-2xl font-bold leading-tight tracking-tighter md:text-3xl times"
-              >
+              <h1 className="text-2xl font-bold leading-tight tracking-tighter md:text-3xl times">
                 {title}
-              </Link>
-              <p className="my-4 text-muted-foreground underline">{date}</p>
+              </h1>
+              <p className="my-4 text-muted-foreground">{date}</p>
               <ReactMarkdown className="my-4">{content}</ReactMarkdown>
               <hr />
             </div>

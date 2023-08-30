@@ -129,11 +129,11 @@ export default function Home() {
           <Arts />
         </div>
       </section>
-      {/* <section id="testimonials" className="grid items-center pt-4 pb-12">
+      <section id="testimonials" className="grid items-center pt-4 pb-12">
         <div className="container">
           <Testimonials />
         </div>
-      </section> */}
+      </section>
     </>
     // <section className="container grid items-center pb-4 pt-4">
     //   <div className="flex flex-col md:flex-row items-center justify-between gap-8">

@@ -252,7 +252,7 @@ export function MainNav({ items }: MainNavProps) {
                   arts
                 </Link>
               </div>
-              {/* <div
+              <div
                 className={buttonVariants({
                   size: "sm",
                   variant: "ghost",
@@ -266,7 +266,7 @@ export function MainNav({ items }: MainNavProps) {
                 >
                   testimonials
                 </Link>
-              </div> */}
+              </div>
             </div>
           </nav>
           {/* <nav className="flex flex-col gap-6 font-bold times pl-6 pt-6">
