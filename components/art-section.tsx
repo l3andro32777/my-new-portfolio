@@ -40,7 +40,7 @@ export default function Arts() {
         <h1 className="text-2xl font-bold leading-tight tracking-tighter pt-4 md:text-5xl times">
           My Arts
         </h1>
-        <p className="text-xs pt-4 text-muted-foreground sm:text-base">
+        <p className="text-sm pt-4 text-muted-foreground sm:text-base">
           Discover my diverse creations beyond UI/UX design, including drawings,
           posts, videos and more.
         </p>
@@ -63,7 +63,7 @@ export default function Arts() {
                 <ExternalLink />
               </Link>
             </h2>
-            <p className="pt-2 text-xs sm:text-base">
+            <p className="pt-2 text-sm sm:text-base">
               Check out is my collection of drawings. Many of them are on
               TikTok!
             </p>
@@ -86,7 +86,7 @@ export default function Arts() {
                 <ExternalLink />
               </Link>
             </h2>
-            <p className="pt-2 text-xs sm:text-base">
+            <p className="pt-2 text-sm sm:text-base">
               These are the posts I create for brands that contact me on
               Instagram.
             </p>
@@ -110,7 +110,7 @@ export default function Arts() {
                   <ExternalLink />
                 </Link>
               </h2>
-              <p className="pt-2 text-xs sm:text-base">
+              <p className="pt-2 text-sm sm:text-base">
                 They asked me to demostrate the app. I made commercials!
               </p>
             </div>
@@ -132,7 +132,7 @@ export default function Arts() {
                   <ExternalLink />
                 </Link>
               </h2>
-              <p className="pt-2 text-xs sm:text-base">
+              <p className="pt-2 text-sm sm:text-base">
                 Feel free to read my critics about films, tv shows and
                 videogames.
               </p>

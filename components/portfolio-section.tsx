@@ -54,7 +54,7 @@ export default function Portfolio() {
         <h1 className="text-2xl font-bold leading-tight tracking-tighter pt-4 md:text-5xl times">
           Portfolio
         </h1>
-        <p className="text-xs pt-4 text-muted-foreground sm:text-base">
+        <p className="text-sm pt-4 text-muted-foreground sm:text-base">
           Here, you can find my UI/UX Design portfolio with examples I created,
           during my Bachelor Degree.
         </p>
@@ -88,7 +88,7 @@ export default function Portfolio() {
                   <ExternalLink />
                 </Link>
               </h3>
-              <p className="text-xs pt-2 sm:text-base">{project.description}</p>
+              <p className="text-sm pt-2 sm:text-base">{project.description}</p>
             </div>
           </article>
         ))}

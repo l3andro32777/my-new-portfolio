@@ -17,7 +17,7 @@ export default function Testimonials() {
         <h1 className="text-2xl font-bold leading-tight tracking-tighter md:text-5xl times">
           Testimonials
         </h1>
-        <p className="text-xs py-4 text-muted-foreground sm:text-base">
+        <p className="text-sm py-4 text-muted-foreground sm:text-base">
           Whispers that echo, through the Seven Kingdoms.
         </p>
       </div>
