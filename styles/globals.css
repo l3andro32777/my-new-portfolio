@@ -152,6 +152,20 @@
   object-fit: contain;
 }
 
+.slide-in {
+  animation: slideInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes slideInAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+    transform: rotate(3deg);
+  }
+}
+
   ::-webkit-scrollbar {
     display: none;
   }

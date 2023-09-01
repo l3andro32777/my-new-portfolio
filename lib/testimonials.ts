@@ -20,7 +20,7 @@ export const testimonials = [
     },
     {
       name: 'Carlos Geraldes Martins',
-      role: 'Helping entrepreneurs bring their vision to life / Strategy & Investment 🚀',
+      role: 'Strategy & Investment 🚀',
       date: '29/08/2023',
       content: "Agile, outside the box and solution-oriented. Leandro’s cocktail of skills make him a real must-have in any team.",
       image: "https://media.licdn.com/dms/image/C4E03AQFQuSNkTRA5kQ/profile-displayphoto-shrink_400_400/0/1654092432333?e=1698883200&v=beta&t=tAD5qe5aMJcPUFHj7QJaA3_6a5ooGzY2qH2pS6AYRKk"

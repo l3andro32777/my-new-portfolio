@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { Code, Info, MonitorSmartphone, User } from "lucide-react"
+import { Code, MonitorSmartphone, User } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import {
@@ -16,7 +16,6 @@ import {
   grantsFinderBox1,
   grantsFinderBox2,
   grantsFinderBox3,
-  grantsFinderColors,
   grantsFinderConcept1,
   grantsFinderConcept2,
   grantsFinderConcept3,
@@ -43,7 +42,6 @@ import {
   grantsFinderVideo,
 } from "@/lib/info"
 import { Badge } from "@/components/ui/badge"
-import { Icons } from "@/components/icons"
 
 const project = {
   title: "GrantsFinder",
@@ -101,7 +99,7 @@ export default function GrantsFinder() {
             </div>
           </div>
         </div>
-        <Image src={project.image} alt="" className="w-[40rem] rounded-md" />
+        <Image src={project.image} alt="Preview" className="w-[40rem] rounded-md" />
       </div>
       <hr />
 
@@ -119,7 +117,7 @@ export default function GrantsFinder() {
             Logo
           </h3>
           <div className="flex items-center justify-center w-[12rem] h-[12rem] bg-[#F8FAFC] p-4 rounded-3xl shadow-md">
-            <Image src={project.logo} alt="" className="w-[8rem]" />
+            <Image src={project.logo} alt="GrantsFinder logo" className="w-[8rem]" />
           </div>
           <p className="pt-4">
             The logo is a fusion of the letter{" "}
@@ -205,12 +203,12 @@ export default function GrantsFinder() {
           <div className="flex flex-col justify-center md:flex-row gap-4">
             <Image
               src={arrow}
-              alt=""
+              alt="Arrow"
               className="w-[8rem] h-[8rem] rotate-90 mx-auto md:w-[16rem] md:h-[16rem] md:rotate-12 md:ml-44 "
             />
             <Image
               src={grantsFinderFirstVersion}
-              alt=""
+              alt="First version"
               className="w-[40rem]"
             />
           </div>
@@ -234,7 +232,7 @@ export default function GrantsFinder() {
             </p>
             <Image
               src={grantsFinderConcept1}
-              alt=""
+              alt="Concept 1"
               className="md:w-full rounded-md shadow-lg"
             />
           </div>
@@ -245,7 +243,7 @@ export default function GrantsFinder() {
             </p>
             <Image
               src={grantsFinderConcept2}
-              alt=""
+              alt="Concept 2"
               className="w-full rounded-md shadow-lg"
             />
           </div>
@@ -259,7 +257,7 @@ export default function GrantsFinder() {
           </p>
           <Image
             src={grantsFinderConcept3}
-            alt=""
+            alt="Concept 3"
             className="md:w-1/2 rounded-md shadow-lg"
           />
         </div>
@@ -279,7 +277,7 @@ export default function GrantsFinder() {
           <p className="text-muted-foreground pb-2">Beyond conversations.</p>
           <Image
             src={grantsFinderShape}
-            alt=""
+            alt="Main shape"
             className="md:w-1/2 rounded-md shadow-lg"
           />
         </div>
@@ -293,17 +291,17 @@ export default function GrantsFinder() {
             <div className="md:flex gap-4">
               <Image
                 src={grantsFinderBird1}
-                alt=""
+                alt="Bird concept 1"
                 className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
               />
               <Image
                 src={grantsFinderBird3}
-                alt=""
+                alt="Bird concept 2"
                 className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
               />
               <Image
                 src={grantsFinderBird2}
-                alt=""
+                alt="Bird concept 3"
                 className="md:w-[24rem] rounded-md shadow-lg"
               />
             </div>
@@ -320,17 +318,17 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderBox3}
-              alt=""
+              alt="Box concept 1"
               className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
             />
             <Image
               src={grantsFinderBox1}
-              alt=""
+              alt="Box concept 2"
               className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
             />
             <Image
               src={grantsFinderBox2}
-              alt=""
+              alt="Box concept 3"
               className="md:w-[24rem] rounded-md shadow-lg"
             />
           </div>
@@ -354,12 +352,12 @@ export default function GrantsFinder() {
             <div className="md:flex gap-4">
               <Image
                 src={grantsFinderLowM1}
-                alt=""
+                alt="Low Homepage 1"
                 className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
               />
               <Image
                 src={grantsFinderLowM2}
-                alt=""
+                alt="Low Homepage 2"
                 className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
               />
             </div>
@@ -376,34 +374,34 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderLow1}
-              alt=""
+              alt="Low Chat page 1"
               className="md:w-[24rem] rounded-md shadow-lg mb-2"
             />
             <Image
               src={grantsFinderLow2}
-              alt=""
+              alt="Low Chat page 2"
               className="md:w-[24rem] rounded-md shadow-lg mb-2"
             />
             <Image
               src={grantsFinderLow3}
-              alt=""
+              alt="Low Chat page 3"
               className="md:w-[24rem] rounded-md shadow-lg mb-2"
             />
           </div>
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderShape}
-              alt=""
+              alt="Low Chat page 4"
               className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
             />
             <Image
               src={grantsFinderLow5}
-              alt=""
+              alt="Low Chat page 5"
               className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
             />
             <Image
               src={grantsFinderLow6}
-              alt=""
+              alt="Low Chat page 6"
               className="md:w-[24rem] rounded-md shadow-lg mb-2 md:mb-0"
             />
           </div>
@@ -431,7 +429,7 @@ export default function GrantsFinder() {
             <div className="md:flex gap-4">
               <Image
                 src={grantsFinderBefore}
-                alt=""
+                alt="Before"
                 className="md:w-[36rem] shadow-lg mb-2 md:mb-0"
               />
             </div>
@@ -448,12 +446,12 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderAfter1}
-              alt=""
+              alt="After light"
               className="md:w-[36rem] shadow-lg mb-2"
             />
             <Image
               src={grantsFinderAfter2}
-              alt=""
+              alt="After dark"
               className="md:w-[36rem] shadow-lg mb-2"
             />
           </div>
@@ -488,7 +486,7 @@ export default function GrantsFinder() {
             <div className="md:flex gap-4">
               <Image
                 src={grantsFinderSearch}
-                alt=""
+                alt="Searching"
                 className="md:w-[42rem] rounded-md shadow-lg mb-2 md:mb-0"
               />
             </div>
@@ -505,12 +503,12 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderFast}
-              alt=""
+              alt="Fast answers"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
             <Image
               src={grantsFinderFast2}
-              alt=""
+              alt="Fast answers given"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -526,7 +524,7 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderMultiple}
-              alt=""
+              alt="Multiple answers"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -542,7 +540,7 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderProgress}
-              alt=""
+              alt="Questions progress"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -558,7 +556,7 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderHighlight}
-              alt=""
+              alt="Best match"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -573,7 +571,7 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderMore}
-              alt=""
+              alt="More results"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -589,12 +587,12 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderNoGuide}
-              alt=""
+              alt="Non-guided prompt"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
             <Image
               src={grantsFinderVideo}
-              alt=""
+              alt="Video"
               className="md:w-[42rem] rounded-md shadow-lg mb-2"
             />
           </div>
@@ -614,7 +612,7 @@ export default function GrantsFinder() {
           <div className="md:flex gap-4">
             <Image
               src={grantsFinderFinal}
-              alt=""
+              alt="Final version"
               className="rounded-md shadow-lg mb-2 md:mb-0"
             />
           </div>

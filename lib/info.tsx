@@ -35,7 +35,17 @@ import gFLow5 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_5.
 import gFLow6 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_6.jpg"
 import gFLowM1 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M1.jpg"
 import gFLowM2 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M2.jpg"
+import sPRents from "../images/portfolio/Streaming Planet - Aluguer (sessão iniciada) – Portfólio-1.png"
+import sPEvents from "../images/portfolio/Streaming Planet - Aluguer (sessão iniciada) – Portfólio.png"
+import sPHF3 from "../images/portfolio/Streaming Planet - Feedback de registo – Portfólio.png"
+import sPHF1 from "../images/portfolio/Streaming Planet - Iniciar sessão – Portfólio.png"
+import sPHF4 from "../images/portfolio/Streaming Planet - Início – 2.png"
+import sPEvent from "../images/portfolio/Streaming Planet - Novo aluguer (sessão iniciada) – Portfólio.png"
 import sPRent from "../images/portfolio/Streaming Planet - Novo aluguer – 1.png"
+import sPPayments from "../images/portfolio/Streaming Planet - Pagamento – Portfólio.png"
+import sPHF5 from "../images/portfolio/Streaming Planet - Quem somos – 2.png"
+import sPHF2 from "../images/portfolio/Streaming Planet - Regista-te – Portfólio.png"
+import sPResume from "../images/portfolio/Streaming Planet - Resumo – Portfólio.png"
 import gFAfter1 from "../images/portfolio/after_1.png"
 import gFAfter2 from "../images/portfolio/after_2.png"
 import sPNOS from "../images/portfolio/app-cinema-nos-bilheteira (1).jpeg"
@@ -109,6 +119,17 @@ export const streamingPlanetHBOMax = sPHBOMax
 export const streamingPlanetNOS = sPNOS
 export const streamingPlanetRent = sPRent
 export const streamingPlanetFinal = sPFinal
+
+export const streamingPlanetLogin = sPHF1
+export const streamingPlanetCreate = sPHF2
+export const streamingPlanetFeedback = sPHF3
+export const streamingPlanetHome = sPHF4
+export const streamingPlanetAboutUs = sPHF5
+export const streamingPlanetRents = sPRents
+export const streamingPlanetEvent = sPEvent
+export const streamingPlanetEvents = sPEvents
+export const streamingPlanetPayments = sPPayments
+export const streamingPlanetResume = sPResume
 
 export const arrowBlack = arrowB
 export const arrowWhite = arrowW

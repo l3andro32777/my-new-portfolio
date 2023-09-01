@@ -24,9 +24,9 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "Streaming Planet",
+  title: "Player",
   description:
-    "A platform for the rental of cinema rooms, belonging to a fictitious company that provides Streaming services.",
+    "A social media made for gamers. It's a new way to allow gamers to share their taste for videogames.",
 }
 
 const project = {
@@ -45,7 +45,7 @@ const project = {
   typography: "Roboto",
 }
 
-export default function StreamingPlanet() {
+export default function Player() {
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex flex-col pb-2 md:flex-row justify-between gap-4">

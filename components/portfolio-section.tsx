@@ -36,7 +36,7 @@ const projects = [
   {
     id: 3,
     title: "Player",
-    href: "#",
+    href: "/portfolio/player",
     description:
       "A social media made for gamers. It's a new way to allow gamers to share their taste for videogames.",
     date: "2021",
