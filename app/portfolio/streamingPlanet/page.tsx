@@ -384,8 +384,8 @@ export default function StreamingPlanet() {
             >
               <Image
                 src={streamingPlanetFinal}
-                alt=""
-                className="rounded-t-md shadow-lg mb-2 md:mb-0"
+                alt="Final version"
+                className="rounded-t-md shadow-lg"
               />
               <Button variant="reverse" className="absolute top-2 right-2">
                 Test it yourself! <ExternalLink className="w-4" />
