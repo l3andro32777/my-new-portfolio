@@ -2,7 +2,6 @@ import { Metadata } from "next"
 import Image from "next/image"
 import { Code, ExternalLink, MonitorSmartphone, User } from "lucide-react"
 
-import { streamingPlanetResume } from "@/lib/design"
 import {
   streamingPlanetAboutUs,
   streamingPlanetCreate,
@@ -19,6 +18,7 @@ import {
   streamingPlanetPreview,
   streamingPlanetRent,
   streamingPlanetRents,
+  streamingPlanetResume,
 } from "@/lib/info"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -245,18 +245,6 @@ export default function StreamingPlanet() {
               className="w-full rounded-md shadow-lg"
             />
           </div>
-        </div>
-        <div className="pt-6">
-          <h4 className="text-lg font-semibold">A Symphony of Ideas</h4>
-          <p className="text-muted-foreground pb-2">
-            Witness the fusion of brilliance. These distinct concepts harmonize,
-            creating a groundbreaking solution.
-          </p>
-          <Image
-            src={streamingPlanetRent}
-            alt="Renting page"
-            className="md:w-1/2 rounded-md shadow-lg"
-          />
         </div>
       </div>
       <hr />

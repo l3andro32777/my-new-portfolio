@@ -35,6 +35,8 @@ import gFLow5 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_5.
 import gFLow6 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_6.jpg"
 import gFLowM1 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M1.jpg"
 import gFLowM2 from "../images/portfolio/GrantsFinder_ Low-Fidelity Prototypes_M2.jpg"
+import pFacebook from "../images/portfolio/NRP-the_new_facebook.com-final-1.jpg"
+import pSpotify from "../images/portfolio/Spotify-PPC-landing-page-1024x583.png"
 import sPRents from "../images/portfolio/Streaming Planet - Aluguer (sessão iniciada) – Portfólio-1.png"
 import sPEvents from "../images/portfolio/Streaming Planet - Aluguer (sessão iniciada) – Portfólio.png"
 import sPHF3 from "../images/portfolio/Streaming Planet - Feedback de registo – Portfólio.png"
@@ -52,6 +54,13 @@ import sPNOS from "../images/portfolio/app-cinema-nos-bilheteira (1).jpeg"
 import gFBefore from "../images/portfolio/before.png"
 import sPHBOMax from "../images/portfolio/full-dmx-family-gradient_HOTD-FINAL (1).jpg"
 import grantsFinder from "../images/portfolio/gFPreview.png"
+import pLogo from "../images/portfolio/logo_vermelho.png"
+import pContacts from "../images/portfolio/player_contacts.png"
+import pFooter from "../images/portfolio/player_footer.png"
+import pForum from "../images/portfolio/player_forum.png"
+import pHero from "../images/portfolio/player_hero.png"
+import pTestimonials from "../images/portfolio/player_testimonials.png"
+import pWhy from "../images/portfolio/player_why.png"
 import sPFinal from "../images/portfolio/streaming_planet_final.png"
 import love from "../images/red-heart_2764-fe0f.png"
 import arrowW from "../images/seta-girada-para-a-direita-com-linha-quebrada (1).png"
@@ -77,6 +86,7 @@ export const streamingPlanetPreview = streamingPlanet
 
 export const grantsFinderLogo = gfLogo
 export const streamingPlanetLogo = sPLogo
+export const playerLogo = pLogo
 
 export const grantsFinderColors = gfColors
 
@@ -130,6 +140,16 @@ export const streamingPlanetEvent = sPEvent
 export const streamingPlanetEvents = sPEvents
 export const streamingPlanetPayments = sPPayments
 export const streamingPlanetResume = sPResume
+
+export const playerSpotify = pSpotify
+export const playerFacebook = pFacebook
+
+export const playerHero = pHero
+export const playerWhy = pWhy
+export const playerForum = pForum
+export const playerTestimonials = pTestimonials
+export const playerContacts = pContacts
+export const playerFooter = pFooter
 
 export const arrowBlack = arrowB
 export const arrowWhite = arrowW

@@ -44,7 +44,7 @@ const projects = [
     company: "IPS",
     image: playerPreview,
   },
-  // More posts...
+  // More projects...
 ]
 
 export default function Portfolio() {

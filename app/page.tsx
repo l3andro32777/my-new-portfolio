@@ -79,7 +79,7 @@ export default function Home() {
                 a<span className="typing-text font-bold"> {typedText}</span>
                 {isBlinking && "|"}
               </h1>
-              <p className="text-xs pt-4 text-muted-foreground sm:text-base">
+              <p className="text-sm pt-4 text-muted-foreground sm:text-base">
                 I&apos;m a <strong>UI Jedi (aka UI/UX Designer)</strong> and a
                 creative <strong>Front-end Developer</strong>, but my skills are
                 not just focused on that.
