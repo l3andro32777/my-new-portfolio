@@ -27,7 +27,7 @@ export const testimonials = [
     },
     {
       name: 'Raquel Santos',
-      role: 'Enabling Startups @ Build Up Labs & Startup Grind Lisbon',
+      role: 'Enabling Startups @ Build Up Labs',
       date: '04/09/2023',
       content: "Always open to new challenges, Leandro listens actively, thinks critically and delivers amazing designs! It's surely a pleasure to work with Leandro.",
       image: "https://media.licdn.com/dms/image/C4E03AQHew0fANAxv7A/profile-displayphoto-shrink_400_400/0/1621267161335?e=1699488000&v=beta&t=-1L2_sSUnCyiGUeC8R1LcV0-cf89hkH4Rx0O5wtk3XU"
