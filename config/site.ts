@@ -38,6 +38,6 @@ export const siteConfig = {
     instagram: "https://instagram.com/leartizt",
     tiktok: "https://tiktok.com/@leartizt",
     linkedin: "https://www.linkedin.com/in/leandro-francisco20/",
-    cv: "https://drive.google.com/file/d/1pFYiJE4C_-yCyypdE8epdTi6XuA1FtPk/view?usp=drive_link"
+    cv: "https://drive.google.com/file/d/1tRDX2LF9bTBk0VSJQb5xmktzVegpkzOC/view?usp=sharing"
   },
 }
