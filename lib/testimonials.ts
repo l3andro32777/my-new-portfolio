@@ -13,7 +13,7 @@ export const testimonials = [
     // },
     {
       name: 'Vítor Soares',
-      role: 'CEO @Tap My Back / EiR @Build Up Labs',
+      role: 'CEO @ Tap My Back / EiR @ Build Up Labs',
       date: '24/08/2023',
       content: "Consistently impressive! Leandro, elevates collaboration through clear mockup presentations, fostering seamless teamwork. Redefines design excellence, enhancing user experiences across projects. A valuable asset to any team.",
       image: "https://media.licdn.com/dms/image/D5603AQFucZUS6OILnw/profile-displayphoto-shrink_800_800/0/1692466229786?e=1704931200&v=beta&t=bU16FIPzQmZn4pLbtGvIpn_8erbHjM5l2uGhoTkIKs4"
